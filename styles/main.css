@@ -1,0 +1,112 @@
+*{
+    margin: 0 0 0 0;
+}
+
+/* Navigation Bar Styles */
+.nav-bar{
+    display: flex;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding-left: 20px;
+    font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: rgb(235, 173, 4);
+}
+
+.main-title{
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Banner Styles */
+.banner{
+    background-blend-mode: darken;
+    background-image: linear-gradient(to right, black, white), url('../image/bg02.jpg');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    padding-bottom: 80vh;
+}
+
+.banner-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 300px;
+    padding-left: 150px;
+    letter-spacing: 3px;
+
+}
+
+.banner-description{
+    color: white;
+    font-size: 18px;
+    opacity: 0.8;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+
+.btn-subscribe-now{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(241, 113, 28);
+    margin-left: 150px;
+    margin-top: 30px;
+    padding: 15px 30px 15px;
+    font-size: 18px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-subscribe-now:hover{
+    background-color: rgb(255, 51, 0);
+
+}
+
+/* Credit */
+.thanks{
+    color: rgb(196, 196, 196);
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 210px;
+}
+.all-mighty{
+    font-weight: 700;
+    color: rgb(252, 252, 252);
+    transition: 0.3s;
+}
+
+.all-mighty:hover{
+    background-color: rgb(255, 51, 0);
+}
+
+.ph{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.wd{
+    color: rgb(255, 255, 255);
+}
+
+.thanks a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
