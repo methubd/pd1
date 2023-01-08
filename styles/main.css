@@ -3,6 +3,12 @@
 }
 
 /* Navigation Bar Styles */
+nav{
+    position: fixed;
+    width: 100%;
+    top: 50px;
+    height: auto;
+}
 .nav-bar{
     display: flex;
     background-color: rgb(37, 37, 37);
