@@ -6,8 +6,7 @@
 nav{
     position: fixed;
     width: 100%;
-    top: 50px;
-    height: auto;
+    z-index: 1;
 }
 .nav-bar{
     display: flex;
